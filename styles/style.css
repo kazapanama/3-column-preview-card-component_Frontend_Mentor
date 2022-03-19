@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+*{
+    margin:0;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;;
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 95%);
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg{
+    display: flex;
+    border-radius: 1em;
+    overflow: hidden;
+    
+}
+
+.section{
+    height: 500px;
+    width: 305px;
+    
+}
+
+.yellow{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.cyan{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.green{
+    background-color: hsl(179, 100%, 13%)
+}
+
+.icon{
+    margin-top:50px;
+    margin-bottom: 30px;
+    margin-left:45px;
+}
+
+h2{
+    margin-left:45px;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    font-size: 40px;
+    color:hsl(0, 0%, 95%);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+p{
+    margin-left:45px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.05em;
+    color:hsla(0, 0%, 100%, 0.75);
+    padding-right: 55px;
+    margin-bottom: 85px;
+
+}
+
+.learn-more{
+    margin-left:45px;
+    width:146px;
+    height:50px;
+    border:none;
+    border-radius: 2em;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+.t1{
+    color: hsl(31, 77%, 52%);
+}
+
+.t1:hover{
+    background-color: hsl(31, 77%, 52%);
+    color:hsl(0, 0%, 95%);
+    border:1px solid hsl(0, 0%, 95%);
+}
+
+
+.t2{
+    color:hsl(184, 100%, 22%);
+}
+
+.t2:hover{
+    background-color: hsl(184, 100%, 22%);
+    color:hsl(0, 0%, 95%);
+    border:1px solid hsl(0, 0%, 95%);
+}
+
+.t3{
+    color:hsl(179, 100%, 13%);
+}
+
+.t3:hover{
+    background-color: hsl(179, 100%, 13%);
+    color:hsl(0, 0%, 95%);
+    border:1px solid hsl(0, 0%, 95%);
+}
+
+@media screen and (max-width: 950px) {
+   .bg{
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   } 
+    body{
+        height: 100%;
+    }
+}
